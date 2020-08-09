@@ -7,7 +7,7 @@ namespace Polymorphism
     {
         public void MethodToOverload(int i)
         {
-            Console.WriteLine("Child's MethodToOverload called.");
+            Console.WriteLine("Child's MethodToOverload called. " + i);
         }
         public override void MethodToOverride() //Without override keyword method can't be overridden
         {

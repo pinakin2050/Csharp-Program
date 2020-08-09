@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>Abstraction.AbstractionChildClass1</StartupObject>
+    <StartupObject>Abstraction.ExecuteShapes</StartupObject>
   </PropertyGroup>
 
 </Project>
