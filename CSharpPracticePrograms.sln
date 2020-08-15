@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessSpecifiersDemo", "Acc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessSpecifiersDemo2", "AccessSpecifiersDemo2\AccessSpecifiersDemo2.csproj", "{B60D906D-303D-4463-ACD1-7C806E975D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureDemo", "StructureDemo\StructureDemo.csproj", "{44CD0BDE-23F4-4F1A-AC29-FE9CB9F3067E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructureDemo", "StructureDemo\StructureDemo.csproj", "{44CD0BDE-23F4-4F1A-AC29-FE9CB9F3067E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{4B2D05DE-244B-47B6-836D-3BF1906FEFDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{4B2D05DE-244B-47B6-836D-3BF1906FEFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDemo", "PropertyDemo\PropertyDemo.csproj", "{517B5878-48BE-4F6B-83EC-1DFCFC8E5C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{4B2D05DE-244B-47B6-836D-3BF1906FEFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2D05DE-244B-47B6-836D-3BF1906FEFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2D05DE-244B-47B6-836D-3BF1906FEFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517B5878-48BE-4F6B-83EC-1DFCFC8E5C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517B5878-48BE-4F6B-83EC-1DFCFC8E5C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517B5878-48BE-4F6B-83EC-1DFCFC8E5C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517B5878-48BE-4F6B-83EC-1DFCFC8E5C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
