@@ -5,11 +5,17 @@ namespace PropertyDemo
     class Customer
     {
         public const int MinimumBalance = 500;
-        int _CustomerID = 001;
+        int _CustomerID;
         string _CustomerName;
         bool _CustomerStatus;
         double _CustomerBalance;
 
+        public Customer(int id, string name, bool status)
+        {
+            _CustomerID = id;
+            _CustomerName = name;
+            _CustomerStatus = status;
+        }
         public int CustomerID
         {
             get { return _CustomerID; }

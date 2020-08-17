@@ -8,9 +8,9 @@ namespace PropertyDemo
     {
         static void Main()
         {
-            Customer obj = new Customer();
-            obj.CustomerStatus = true;
-            obj.CustomerName = "Pinakin Brahmin";
+            Customer obj = new Customer(001, "Pinakin Brahmin", true);
+            
+            //Setting Balance
             obj.CustomerBalance = 7000;
 
             Console.WriteLine("Customer Details:");
