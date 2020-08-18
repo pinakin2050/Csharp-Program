@@ -6,11 +6,14 @@ namespace PropertyDemo
     {
         static void Main()
         {
-            Customer obj = new Customer(001, "Pinakin Brahmin", true, 7000);
+            Customer obj = new Customer(001, "Pinakin Brahmin", true, 7000, Cities.Ahmedabad, "Gujarat");
 
             Console.WriteLine("Customer Details:");
             Console.WriteLine("Name: " + obj.CustomerName);
             Console.WriteLine("Balance: " + obj.CustomerBalance);
+            Console.WriteLine("Current City: " + obj.City);
+            Console.WriteLine("Current State: " + obj.State);
+            Console.WriteLine("Current Country: " + obj.Country);
 
             //Editing CustomerID is not allowed
             //obj.CustomerID = 002;
@@ -29,6 +32,12 @@ namespace PropertyDemo
             //Trying to withdraw smaller amount than the available balance
             obj.CustomerBalance -= 3000;
             Console.WriteLine("Updated Amount: " + obj.CustomerBalance);
+
+            obj.City = Cities.Navsari;
+            Console.WriteLine("Updated City: " + obj.City);
+
+            //This will not be allowed bcz this is not a child of Customer class
+            //obj.State = "Maharastra";        
         }
     }
 }
