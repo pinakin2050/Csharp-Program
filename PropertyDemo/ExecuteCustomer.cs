@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PropertyDemo
 {
@@ -8,10 +6,7 @@ namespace PropertyDemo
     {
         static void Main()
         {
-            Customer obj = new Customer(001, "Pinakin Brahmin", true);
-            
-            //Setting Balance
-            obj.CustomerBalance = 7000;
+            Customer obj = new Customer(001, "Pinakin Brahmin", true, 7000);
 
             Console.WriteLine("Customer Details:");
             Console.WriteLine("Name: " + obj.CustomerName);

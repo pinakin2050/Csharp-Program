@@ -10,11 +10,12 @@ namespace PropertyDemo
         bool _CustomerStatus;
         double _CustomerBalance;
 
-        public Customer(int id, string name, bool status)
+        public Customer(int id, string name, bool status, double balance)
         {
             _CustomerID = id;
             _CustomerName = name;
             _CustomerStatus = status;
+            _CustomerBalance = balance;
         }
         public int CustomerID
         {
