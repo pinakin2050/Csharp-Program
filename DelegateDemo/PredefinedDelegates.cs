@@ -24,7 +24,7 @@ namespace DelegateDemo
         {
             //When you don't want to define customized delegate for methods you can use 
             //following pre-defined delegates
-            //Func - Use it for values returning methods
+            //Func - Use it for value returning methods
             //Action - Use if for non-value returning methods
             //Predicate - Use it for bool returning methods
             
@@ -38,7 +38,8 @@ namespace DelegateDemo
             Action<int, float, double> obj2 = AddNums2;
             obj2.Invoke(45,67.4f,67.345);
 
-            //Here also we don't have to specify return type of the fns bcz this delegate is used for bool returning fns
+            //Here also we don't have to specify return type of the fns bcz 
+           // this delegate is used for bool returning fns
             Predicate<string> obj3 = VerifyLength;
             Console.WriteLine(obj3.Invoke("Pinakin"));
             Console.WriteLine(obj3.Invoke("Hello"));
