@@ -7,7 +7,7 @@ namespace DelegateDemo
     {
         void GetPerimeter(double Width, double Height)
         {
-            Console.WriteLine("Perimeter: " + 2 * (Width * Height));
+            Console.WriteLine("Perimeter: " + 2 * (Width + Height));
         }
         void GetArea(double Width, double Height)
         {
