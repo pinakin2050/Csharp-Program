@@ -8,9 +8,9 @@ namespace FirstProject
         {
             Console.WriteLine("Static Constructor is executed.");
         }
-        //static void Main()
-        //{
-        //    Console.WriteLine("Code inside Main() executed.");
-        //}
+        static void Main()
+        {
+            Console.WriteLine("Code inside Main() executed.");
+        }
     }
 }

@@ -13,11 +13,11 @@ namespace FirstProject
             Console.WriteLine("Explicit Constructor called.");
         }
 
-        //static void Main()
-        //{
-        //    ExplicitConstructor obj1 = new ExplicitConstructor();
-        //    ExplicitConstructor obj2 = new ExplicitConstructor();
-        //    ExplicitConstructor obj3 = new ExplicitConstructor();
-        //}
+        static void Main()
+        {
+            ExplicitConstructor obj1 = new ExplicitConstructor();
+            ExplicitConstructor obj2 = new ExplicitConstructor();
+            ExplicitConstructor obj3 = new ExplicitConstructor();
+        }
     }
 }

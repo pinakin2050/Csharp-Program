@@ -4,7 +4,7 @@ namespace Abstraction
 {
     class AbstractionChildClass1 : AbstractionParentClass1
     {
-        //Implementin abstract methods of parent class.
+        //Implementing abstract methods of parent class.
         public override void Mul(int x, int y)
         {
             Console.WriteLine(x * y);

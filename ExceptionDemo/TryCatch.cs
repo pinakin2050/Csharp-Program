@@ -2,7 +2,7 @@
 
 namespace ExceptionDemo
 {
-    class Program1
+    class TryCatch
     {
         static void Main()
         {

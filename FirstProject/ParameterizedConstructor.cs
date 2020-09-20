@@ -17,12 +17,12 @@ namespace FirstProject
             Console.WriteLine("Value of x is: " + x);
         }
 
-        //static void Main()
-        //{
-        //    ParameterizedConstructor obj1 = new ParameterizedConstructor(7);
-        //    ParameterizedConstructor obj2 = new ParameterizedConstructor(3);
-        //    obj1.Display();
-        //    obj2.Display();
-        //}
+        static void Main()
+        {
+            ParameterizedConstructor obj1 = new ParameterizedConstructor(7);
+            ParameterizedConstructor obj2 = new ParameterizedConstructor(3);
+            obj1.Display();
+            obj2.Display();
+        }
     }
 }
