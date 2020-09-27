@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "Extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderDemo", "StringBuilderDemo\StringBuilderDemo.csproj", "{24E7A720-771F-427F-9046-D2154E22091D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{7BAD1FE5-BBD0-4B5A-8552-6CD45B9C1B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{7BAD1FE5-BBD0-4B5A-8552-6CD45B9C1B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingDemo", "MultithreadingDemo\MultithreadingDemo.csproj", "{FF3E1467-A71B-4FCC-A905-BD83AE9826DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{7BAD1FE5-BBD0-4B5A-8552-6CD45B9C1B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BAD1FE5-BBD0-4B5A-8552-6CD45B9C1B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BAD1FE5-BBD0-4B5A-8552-6CD45B9C1B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3E1467-A71B-4FCC-A905-BD83AE9826DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3E1467-A71B-4FCC-A905-BD83AE9826DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3E1467-A71B-4FCC-A905-BD83AE9826DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3E1467-A71B-4FCC-A905-BD83AE9826DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
