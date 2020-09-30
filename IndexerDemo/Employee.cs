@@ -41,7 +41,7 @@ namespace IndexerDemo
 
             set
             {
-                //Implicily type casting becase value is of type object so the unboxing has to be done
+                //Implicitly type casting becase value is of type object so the unboxing has to be done
                 if (index == 0)
                     EmpNo = (int)value;
                 else if (index == 1)
