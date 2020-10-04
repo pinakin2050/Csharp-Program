@@ -43,7 +43,6 @@ namespace LinqDemo
 
             foreach (var OwnerAndPet in query)
                 Console.WriteLine($"\"{OwnerAndPet.PetName}\" is owned by {OwnerAndPet.OwnerName}");
-        }
-        
+        }   
     }
 }
